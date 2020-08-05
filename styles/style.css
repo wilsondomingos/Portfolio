@@ -1,3 +1,7 @@
+body{
+    src: url("../fonts/TaxiDriver.ttf");
+    font-family: "Taxi Driver";  
+}
 @font-face {
     src: url("../fonts/TaxiDriver.ttf");
     font-family: "Taxi Driver";
@@ -27,13 +31,11 @@ header {
 }
 
 .opacidade{
-    height: 100vh;
+    height: 230vh;
     background-image: url('../svgs/20191025_073119.jpg');
     background-color: white;
-    background-position-y: -40vh ;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 2px;
 }
 .min-header {
     background-color: #000000;
@@ -134,8 +136,18 @@ header {
 }
 .ghost {
     width: 100%;
-    height: 100px;
-    background-color: #cae1f1;
+    height: 60px;
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+    color:#2574a9;
+    border: 1px solid #cccc;
+    margin-top: 1px;
+    box-shadow: 0px 4px 20px  rgba(0,0,0,0.08);
+}
+.ghost p{
+    margin-top: 10px;
+    
 }
 @media (max-width: 768px) {
     .max-header {
@@ -245,7 +257,7 @@ main section {
 }
 main section:nth-child(odd) {
     height: 100vh;
-    background-color: #cae1f1;
+ 
   
 }
 main section:nth-child(even) {
