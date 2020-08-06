@@ -150,6 +150,49 @@ header {
     margin-top: 10px;
     
 }
+
+main {
+    font-size: 20px;
+}
+main section {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-family: "Taxi Driver";
+    font-size: 2em;
+    color: #2574a9;
+    
+}
+#sobre{
+    display: flex;
+    justify-content: space-around;
+    font-family: "Poppins";
+    font-size: 17px;
+    color: #6aa3c9;
+    margin:20px;
+}
+.SobreMin{
+    margin-right:3vw; 
+   
+}
+.fotosobreMim {
+ 
+    box-shadow: 0px 4px 10px  rgba(0,0,0,0.08);
+    height: 70vh;
+}
+.fotosobreMim p{
+    margin: 2vw 2vh;
+}
+main section:nth-child(odd) {
+    height: 100%;
+ 
+  
+}
+main section:nth-child(even) {
+    height: 100vh;
+    background-color: #b7d5eb;
+}
+
 @media (max-width: 768px) {
     .max-header {
         height: 80px;
@@ -259,56 +302,19 @@ header {
     .SobreMin{
         width: 100%;
         font-size: 15px;
+        text-align: justify;
     }
     .fotosobreMim img{
-        width: 100%;
+        width: 95%;
         height: 90%;
+        margin: 2vw;
+       
     }
     .fotosobreMim p{
         font-size: 14px;
     }
     .fotosobreMim{
+        
         margin-top: 2vh;
     }
-}
-main {
-    font-size: 20px;
-}
-main section {
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    font-family: "Taxi Driver";
-    font-size: 2em;
-    color: #2574a9;
-    
-}
-#sobre{
-    display: flex;
-    justify-content: space-around;
-    font-family: "Poppins";
-    font-size: 17px;
-    color: #6aa3c9;
-    margin:20px;
-}
-.SobreMin{
-    margin-right:3vw; 
-   
-}
-.fotosobreMim {
- 
-    box-shadow: 0px 4px 10px  rgba(0,0,0,0.08);
-    height: 70vh;
-}
-.fotosobreMim p{
-    margin: 2vw 2vh;
-}
-main section:nth-child(odd) {
-    height: 100%;
- 
-  
-}
-main section:nth-child(even) {
-    height: 100vh;
-    background-color: #b7d5eb;
 }
