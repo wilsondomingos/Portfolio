@@ -259,6 +259,7 @@ header {
     .SobreMin{
         margin-top: 5vh;
         border-right:none; 
+        font-size: 12px;
     }
     .fotosobreMim img{
         width: 300px;
