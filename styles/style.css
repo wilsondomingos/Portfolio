@@ -254,10 +254,7 @@ main section:nth-child(even) {
 
 
 @media (max-width: 768px) {
-    html, body{
-        overflow-x: hidden;
-        
-    }
+
     .max-header {
         height: 80px;
     }
@@ -394,10 +391,18 @@ main section:nth-child(even) {
     #produtos{
         display: flex;
         flex-direction: column;
-        text-align: justify;
+        align-items: center;
+       
     }
     #produtos  p{
-        text-align: justify;
+        font-family: "Poppins";
         font-size: 12px;
+    }
+    #produtos  article, p{
+        text-align: center;
+    }
+    #produtos  article{
+        margin-bottom: 4vh;
+        margin-top: 4vh;
     }
 }
