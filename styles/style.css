@@ -199,6 +199,10 @@ main section:nth-child(even) {
     }
     .opacidade {
         height: 400px;
+        background-image: url('../svgs/20191025_073119\ -\ Cópia.jpg');
+        background-color: white;
+        background-repeat: no-repeat;
+        background-size: cover;
         
     }
     .logo img{
