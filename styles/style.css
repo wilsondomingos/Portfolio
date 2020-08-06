@@ -258,7 +258,7 @@ header {
     }
     .SobreMin{
        
-        border-right:none; 
+        
         font-size: 15px;
     }
     .fotosobreMim img{
@@ -293,7 +293,7 @@ main section {
 }
 .SobreMin{
     margin-right:3vw; 
-    border-right:1px solid #cccc; 
+   
 }
 .fotosobreMim {
  
