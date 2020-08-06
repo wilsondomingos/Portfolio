@@ -259,13 +259,13 @@ header {
     .SobreMin{
        
         border-right:none; 
-        font-size: 7px;
+        font-size: 8px;
     }
     .fotosobreMim img{
-        width: 280px;
+        width: 300px;
     }
     .fotosobreMim p{
-        font-size: 7px;
+        font-size: 8px;
     }
     .fotosobreMim{
         margin-top: 2vh;
