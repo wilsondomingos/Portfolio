@@ -371,7 +371,7 @@ main section:nth-child(even) {
         margin-left: 2vw;
     }
     .fotosobreMim p{
-        font-size: 13px;
+        font-size: 15px;
         text-align: center;
     }
     .fotosobreMim{
@@ -396,10 +396,10 @@ main section:nth-child(even) {
     }
     #produtos  p{
         font-family: "Poppins";
-        font-size: 12px;
+        font-size: 15px;
     }
-    #produtos  article, p{
-        text-align: center;
+    #produtos   p{
+        text-align: justify;
     }
     #produtos  article{
         margin-bottom: 4vh;
