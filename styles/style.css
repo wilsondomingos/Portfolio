@@ -498,12 +498,21 @@ button:hover{
       width: 100%;
       display: flex;
       flex-direction: column;
-      align-items: center;
+      align-items: flex-start;
     }
     #contato p{
         font-size: 15px;
     }
     .mensagem h2{
          font-size: 15px;
+         width: 100vw;
+      
     }
+    input[type="text"],
+    input[type="email"],
+   
+   textarea{
+       width: 90vw;
+     
+   }
 }
