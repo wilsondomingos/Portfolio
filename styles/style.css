@@ -339,7 +339,9 @@ button:hover{
 
 
 @media (max-width: 768px) {
-
+  body{
+      overflow-x: hidden;
+  }
     .max-header {
         height: 80px;
     }
@@ -493,9 +495,7 @@ button:hover{
         margin-top: 4vh;
     }
     #contato{
-        
-      height: 100%;
-      width: 100%;
+      width: 100vw;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
