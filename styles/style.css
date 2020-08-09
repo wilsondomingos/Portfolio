@@ -278,6 +278,13 @@ main section:nth-child(even) {
     color: white;
     margin:20px;
 }
+#contato h2{
+    src: url("../fonts/verdana-4.ttf");
+    font-family: "verdana";  
+    font-size: 20px;
+    color: white;
+    
+}
 .mensagem{
     src: url("../fonts/verdana-4.ttf");
     font-family: "verdana";  
@@ -474,8 +481,8 @@ button:hover{
     .exp div>img{
         display: flex;
         flex-direction: row;
-        height: 100%;
-        width: 100%;
+        height: 70%;
+        width: 80%;
         margin-right: 2vw;
     }
     .exp div{
@@ -499,8 +506,8 @@ button:hover{
         margin-top: 4vh;
     }
     #contato{
-      height: 100vh;
-      width: 100vw;
+      height: 100%;
+      width: 100%;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
@@ -508,6 +515,14 @@ button:hover{
     #contato p{
         
         font-size: 15px;
+    }
+    #contato h2{
+        margin-top:8vh;
+        margin-left: 20px;
+    }
+    .linha{
+        width: 100vw;
+        margin-top: 2vw;
     }
     .mensagem h2{
          font-size: 15px;
